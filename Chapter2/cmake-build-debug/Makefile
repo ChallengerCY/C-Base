@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+myfirst.o: myfirst.cpp.o
+
+.PHONY : myfirst.o
+
+# target to build an object file
+myfirst.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/myfirst.cpp.o
+.PHONY : myfirst.cpp.o
+
+myfirst.i: myfirst.cpp.i
+
+.PHONY : myfirst.i
+
+# target to preprocess a source file
+myfirst.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/myfirst.cpp.i
+.PHONY : myfirst.cpp.i
+
+myfirst.s: myfirst.cpp.s
+
+.PHONY : myfirst.s
+
+# target to generate assembly for a file
+myfirst.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/myfirst.cpp.s
+.PHONY : myfirst.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... myfirst.o"
+	@echo "... myfirst.i"
+	@echo "... myfirst.s"
 .PHONY : help
 
 

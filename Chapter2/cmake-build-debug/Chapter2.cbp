@@ -83,6 +83,9 @@
 		<Unit filename="/Applications/codeBase/C-Base/Chapter2/main.cpp">
 			<Option target="Chapter2"/>
 		</Unit>
+		<Unit filename="/Applications/codeBase/C-Base/Chapter2/myfirst.cpp">
+			<Option target="Chapter2"/>
+		</Unit>
 		<Unit filename="/Applications/codeBase/C-Base/Chapter2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
