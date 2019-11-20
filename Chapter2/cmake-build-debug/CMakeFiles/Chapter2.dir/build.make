@@ -57,27 +57,27 @@ include CMakeFiles/Chapter2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter2.dir/flags.make
 
-CMakeFiles/Chapter2.dir/getinfo.cpp.o: CMakeFiles/Chapter2.dir/flags.make
-CMakeFiles/Chapter2.dir/getinfo.cpp.o: ../getinfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter2.dir/getinfo.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter2.dir/getinfo.cpp.o -c /Applications/codeBase/C-Base/Chapter2/getinfo.cpp
+CMakeFiles/Chapter2.dir/sqrt.cpp.o: CMakeFiles/Chapter2.dir/flags.make
+CMakeFiles/Chapter2.dir/sqrt.cpp.o: ../sqrt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter2.dir/sqrt.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter2.dir/sqrt.cpp.o -c /Applications/codeBase/C-Base/Chapter2/sqrt.cpp
 
-CMakeFiles/Chapter2.dir/getinfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter2.dir/getinfo.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter2/getinfo.cpp > CMakeFiles/Chapter2.dir/getinfo.cpp.i
+CMakeFiles/Chapter2.dir/sqrt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter2.dir/sqrt.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter2/sqrt.cpp > CMakeFiles/Chapter2.dir/sqrt.cpp.i
 
-CMakeFiles/Chapter2.dir/getinfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter2.dir/getinfo.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter2/getinfo.cpp -o CMakeFiles/Chapter2.dir/getinfo.cpp.s
+CMakeFiles/Chapter2.dir/sqrt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter2.dir/sqrt.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter2/sqrt.cpp -o CMakeFiles/Chapter2.dir/sqrt.cpp.s
 
 # Object files for target Chapter2
 Chapter2_OBJECTS = \
-"CMakeFiles/Chapter2.dir/getinfo.cpp.o"
+"CMakeFiles/Chapter2.dir/sqrt.cpp.o"
 
 # External object files for target Chapter2
 Chapter2_EXTERNAL_OBJECTS =
 
-Chapter2: CMakeFiles/Chapter2.dir/getinfo.cpp.o
+Chapter2: CMakeFiles/Chapter2.dir/sqrt.cpp.o
 Chapter2: CMakeFiles/Chapter2.dir/build.make
 Chapter2: CMakeFiles/Chapter2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/Chapter2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Chapter2"

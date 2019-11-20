@@ -3,4 +3,4 @@ project(Chapter2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Chapter2 getinfo.cpp)
+add_executable(Chapter2 sqrt.cpp)

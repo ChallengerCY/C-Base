@@ -3,7 +3,7 @@
 //
 #include <iostream>
 
-int main1() {
+int main() {
     using namespace std;
 
     int carrots;

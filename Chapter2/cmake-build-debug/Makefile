@@ -123,32 +123,32 @@ Chapter2/fast:
 	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/build
 .PHONY : Chapter2/fast
 
-getinfo.o: getinfo.cpp.o
+sqrt.o: sqrt.cpp.o
 
-.PHONY : getinfo.o
+.PHONY : sqrt.o
 
 # target to build an object file
-getinfo.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/getinfo.cpp.o
-.PHONY : getinfo.cpp.o
+sqrt.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/sqrt.cpp.o
+.PHONY : sqrt.cpp.o
 
-getinfo.i: getinfo.cpp.i
+sqrt.i: sqrt.cpp.i
 
-.PHONY : getinfo.i
+.PHONY : sqrt.i
 
 # target to preprocess a source file
-getinfo.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/getinfo.cpp.i
-.PHONY : getinfo.cpp.i
+sqrt.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/sqrt.cpp.i
+.PHONY : sqrt.cpp.i
 
-getinfo.s: getinfo.cpp.s
+sqrt.s: sqrt.cpp.s
 
-.PHONY : getinfo.s
+.PHONY : sqrt.s
 
 # target to generate assembly for a file
-getinfo.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/getinfo.cpp.s
-.PHONY : getinfo.cpp.s
+sqrt.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/sqrt.cpp.s
+.PHONY : sqrt.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter2"
-	@echo "... getinfo.o"
-	@echo "... getinfo.i"
-	@echo "... getinfo.s"
+	@echo "... sqrt.o"
+	@echo "... sqrt.i"
+	@echo "... sqrt.s"
 .PHONY : help
 
 
