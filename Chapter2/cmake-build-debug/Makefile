@@ -123,86 +123,32 @@ Chapter2/fast:
 	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/build
 .PHONY : Chapter2/fast
 
-carrots.o: carrots.cpp.o
+getinfo.o: getinfo.cpp.o
 
-.PHONY : carrots.o
-
-# target to build an object file
-carrots.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/carrots.cpp.o
-.PHONY : carrots.cpp.o
-
-carrots.i: carrots.cpp.i
-
-.PHONY : carrots.i
-
-# target to preprocess a source file
-carrots.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/carrots.cpp.i
-.PHONY : carrots.cpp.i
-
-carrots.s: carrots.cpp.s
-
-.PHONY : carrots.s
-
-# target to generate assembly for a file
-carrots.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/carrots.cpp.s
-.PHONY : carrots.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : getinfo.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/main.cpp.o
-.PHONY : main.cpp.o
+getinfo.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/getinfo.cpp.o
+.PHONY : getinfo.cpp.o
 
-main.i: main.cpp.i
+getinfo.i: getinfo.cpp.i
 
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-myfirst.o: myfirst.cpp.o
-
-.PHONY : myfirst.o
-
-# target to build an object file
-myfirst.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/myfirst.cpp.o
-.PHONY : myfirst.cpp.o
-
-myfirst.i: myfirst.cpp.i
-
-.PHONY : myfirst.i
+.PHONY : getinfo.i
 
 # target to preprocess a source file
-myfirst.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/myfirst.cpp.i
-.PHONY : myfirst.cpp.i
+getinfo.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/getinfo.cpp.i
+.PHONY : getinfo.cpp.i
 
-myfirst.s: myfirst.cpp.s
+getinfo.s: getinfo.cpp.s
 
-.PHONY : myfirst.s
+.PHONY : getinfo.s
 
 # target to generate assembly for a file
-myfirst.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/myfirst.cpp.s
-.PHONY : myfirst.cpp.s
+getinfo.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/getinfo.cpp.s
+.PHONY : getinfo.cpp.s
 
 # Help Target
 help:
@@ -213,15 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter2"
-	@echo "... carrots.o"
-	@echo "... carrots.i"
-	@echo "... carrots.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... myfirst.o"
-	@echo "... myfirst.i"
-	@echo "... myfirst.s"
+	@echo "... getinfo.o"
+	@echo "... getinfo.i"
+	@echo "... getinfo.s"
 .PHONY : help
 
 

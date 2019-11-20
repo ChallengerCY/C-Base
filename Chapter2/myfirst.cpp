@@ -1,14 +1,13 @@
 //
-// Created by 成宇 on 2019/11/14.
+// Created by CY on 2019/11/14.
 //
 #include <iostream>
 
-int main1()
-{
+int main1() {
     using namespace std;
-    cout<<"Come up and C++ me some time";
-    cout<<endl;
-    cout<<"You won't regret it!"<<endl;
+    cout << "Come up and C++ me some time";
+    cout << endl;
+    cout << "You won't regret it!" << endl;
     return 0;
 }
 

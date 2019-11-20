@@ -1,20 +1,20 @@
 //
-// Created by 成宇 on 2019/11/18.
+// Created by CY on 2019/11/18.
 //
 #include <iostream>
-int main()
-{
+
+int main1() {
     using namespace std;
 
     int carrots;
 
-    carrots=25;
-    cout<<"I have ";
-    cout<<carrots;
-    cout<<" carrots";
-    cout<<endl;
-    carrots=carrots-1;
-    cout<<"Crunch, crunch. Now I have "<<carrots<<" carrots"<<endl;
+    carrots = 25;
+    cout << "I have ";
+    cout << carrots;
+    cout << " carrots";
+    cout << endl;
+    carrots = carrots - 1;
+    cout << "Crunch, crunch. Now I have " << carrots << " carrots" << endl;
     return 0;
 }
 
