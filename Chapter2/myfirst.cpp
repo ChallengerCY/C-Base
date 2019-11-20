@@ -3,7 +3,7 @@
 //
 #include <iostream>
 
-int main()
+int main1()
 {
     using namespace std;
     cout<<"Come up and C++ me some time";

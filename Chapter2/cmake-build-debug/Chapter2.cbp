@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Applications/codeBase/C-Base/Chapter2/carrots.cpp">
+			<Option target="Chapter2"/>
+		</Unit>
 		<Unit filename="/Applications/codeBase/C-Base/Chapter2/main.cpp">
 			<Option target="Chapter2"/>
 		</Unit>

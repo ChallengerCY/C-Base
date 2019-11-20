@@ -123,6 +123,33 @@ Chapter2/fast:
 	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/build
 .PHONY : Chapter2/fast
 
+carrots.o: carrots.cpp.o
+
+.PHONY : carrots.o
+
+# target to build an object file
+carrots.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/carrots.cpp.o
+.PHONY : carrots.cpp.o
+
+carrots.i: carrots.cpp.i
+
+.PHONY : carrots.i
+
+# target to preprocess a source file
+carrots.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/carrots.cpp.i
+.PHONY : carrots.cpp.i
+
+carrots.s: carrots.cpp.s
+
+.PHONY : carrots.s
+
+# target to generate assembly for a file
+carrots.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/carrots.cpp.s
+.PHONY : carrots.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter2"
+	@echo "... carrots.o"
+	@echo "... carrots.i"
+	@echo "... carrots.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
