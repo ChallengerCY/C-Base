@@ -123,32 +123,32 @@ Chapter2/fast:
 	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/build
 .PHONY : Chapter2/fast
 
-sqrt.o: sqrt.cpp.o
+ourfunc.o: ourfunc.cpp.o
 
-.PHONY : sqrt.o
+.PHONY : ourfunc.o
 
 # target to build an object file
-sqrt.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/sqrt.cpp.o
-.PHONY : sqrt.cpp.o
+ourfunc.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/ourfunc.cpp.o
+.PHONY : ourfunc.cpp.o
 
-sqrt.i: sqrt.cpp.i
+ourfunc.i: ourfunc.cpp.i
 
-.PHONY : sqrt.i
+.PHONY : ourfunc.i
 
 # target to preprocess a source file
-sqrt.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/sqrt.cpp.i
-.PHONY : sqrt.cpp.i
+ourfunc.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/ourfunc.cpp.i
+.PHONY : ourfunc.cpp.i
 
-sqrt.s: sqrt.cpp.s
+ourfunc.s: ourfunc.cpp.s
 
-.PHONY : sqrt.s
+.PHONY : ourfunc.s
 
 # target to generate assembly for a file
-sqrt.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/sqrt.cpp.s
-.PHONY : sqrt.cpp.s
+ourfunc.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/ourfunc.cpp.s
+.PHONY : ourfunc.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter2"
-	@echo "... sqrt.o"
-	@echo "... sqrt.i"
-	@echo "... sqrt.s"
+	@echo "... ourfunc.o"
+	@echo "... ourfunc.i"
+	@echo "... ourfunc.s"
 .PHONY : help
 
 

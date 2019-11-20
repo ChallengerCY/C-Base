@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Applications/codeBase/C-Base/Chapter2/sqrt.cpp
+/Applications/codeBase/C-Base/Chapter2/ourfunc.cpp
 iostream
--
-cmath
 -
 
