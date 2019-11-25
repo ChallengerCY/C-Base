@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Applications/codeBase/C-Base/Chapter2/ourfunc.cpp" "/Applications/codeBase/C-Base/Chapter2/cmake-build-debug/CMakeFiles/Chapter2.dir/ourfunc.cpp.o"
+  "/Applications/codeBase/C-Base/Chapter2/practice1.cpp" "/Applications/codeBase/C-Base/Chapter2/cmake-build-debug/CMakeFiles/Chapter2.dir/practice1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -123,32 +123,32 @@ Chapter2/fast:
 	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/build
 .PHONY : Chapter2/fast
 
-ourfunc.o: ourfunc.cpp.o
+practice1.o: practice1.cpp.o
 
-.PHONY : ourfunc.o
+.PHONY : practice1.o
 
 # target to build an object file
-ourfunc.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/ourfunc.cpp.o
-.PHONY : ourfunc.cpp.o
+practice1.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/practice1.cpp.o
+.PHONY : practice1.cpp.o
 
-ourfunc.i: ourfunc.cpp.i
+practice1.i: practice1.cpp.i
 
-.PHONY : ourfunc.i
+.PHONY : practice1.i
 
 # target to preprocess a source file
-ourfunc.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/ourfunc.cpp.i
-.PHONY : ourfunc.cpp.i
+practice1.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/practice1.cpp.i
+.PHONY : practice1.cpp.i
 
-ourfunc.s: ourfunc.cpp.s
+practice1.s: practice1.cpp.s
 
-.PHONY : ourfunc.s
+.PHONY : practice1.s
 
 # target to generate assembly for a file
-ourfunc.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/ourfunc.cpp.s
-.PHONY : ourfunc.cpp.s
+practice1.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter2.dir/build.make CMakeFiles/Chapter2.dir/practice1.cpp.s
+.PHONY : practice1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter2"
-	@echo "... ourfunc.o"
-	@echo "... ourfunc.i"
-	@echo "... ourfunc.s"
+	@echo "... practice1.o"
+	@echo "... practice1.i"
+	@echo "... practice1.s"
 .PHONY : help
 
 
