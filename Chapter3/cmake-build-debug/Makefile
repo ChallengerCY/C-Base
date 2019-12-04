@@ -123,32 +123,32 @@ Chapter3/fast:
 	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/build
 .PHONY : Chapter3/fast
 
-exceed.o: exceed.cpp.o
+hexoct2.o: hexoct2.cpp.o
 
-.PHONY : exceed.o
+.PHONY : hexoct2.o
 
 # target to build an object file
-exceed.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/exceed.cpp.o
-.PHONY : exceed.cpp.o
+hexoct2.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/hexoct2.cpp.o
+.PHONY : hexoct2.cpp.o
 
-exceed.i: exceed.cpp.i
+hexoct2.i: hexoct2.cpp.i
 
-.PHONY : exceed.i
+.PHONY : hexoct2.i
 
 # target to preprocess a source file
-exceed.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/exceed.cpp.i
-.PHONY : exceed.cpp.i
+hexoct2.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/hexoct2.cpp.i
+.PHONY : hexoct2.cpp.i
 
-exceed.s: exceed.cpp.s
+hexoct2.s: hexoct2.cpp.s
 
-.PHONY : exceed.s
+.PHONY : hexoct2.s
 
 # target to generate assembly for a file
-exceed.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/exceed.cpp.s
-.PHONY : exceed.cpp.s
+hexoct2.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/hexoct2.cpp.s
+.PHONY : hexoct2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter3"
-	@echo "... exceed.o"
-	@echo "... exceed.i"
-	@echo "... exceed.s"
+	@echo "... hexoct2.o"
+	@echo "... hexoct2.i"
+	@echo "... hexoct2.s"
 .PHONY : help
 
 

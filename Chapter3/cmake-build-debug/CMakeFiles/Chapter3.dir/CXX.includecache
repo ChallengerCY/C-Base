@@ -6,9 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Applications/codeBase/C-Base/Chapter3/exceed.cpp
-iostream
--
-climits
--
-

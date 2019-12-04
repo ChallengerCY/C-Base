@@ -57,27 +57,27 @@ include CMakeFiles/Chapter3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter3.dir/flags.make
 
-CMakeFiles/Chapter3.dir/exceed.cpp.o: CMakeFiles/Chapter3.dir/flags.make
-CMakeFiles/Chapter3.dir/exceed.cpp.o: ../exceed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter3.dir/exceed.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter3.dir/exceed.cpp.o -c /Applications/codeBase/C-Base/Chapter3/exceed.cpp
+CMakeFiles/Chapter3.dir/hexoct2.cpp.o: CMakeFiles/Chapter3.dir/flags.make
+CMakeFiles/Chapter3.dir/hexoct2.cpp.o: ../hexoct2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter3.dir/hexoct2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter3.dir/hexoct2.cpp.o -c /Applications/codeBase/C-Base/Chapter3/hexoct2.cpp
 
-CMakeFiles/Chapter3.dir/exceed.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter3.dir/exceed.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter3/exceed.cpp > CMakeFiles/Chapter3.dir/exceed.cpp.i
+CMakeFiles/Chapter3.dir/hexoct2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter3.dir/hexoct2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter3/hexoct2.cpp > CMakeFiles/Chapter3.dir/hexoct2.cpp.i
 
-CMakeFiles/Chapter3.dir/exceed.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter3.dir/exceed.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter3/exceed.cpp -o CMakeFiles/Chapter3.dir/exceed.cpp.s
+CMakeFiles/Chapter3.dir/hexoct2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter3.dir/hexoct2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter3/hexoct2.cpp -o CMakeFiles/Chapter3.dir/hexoct2.cpp.s
 
 # Object files for target Chapter3
 Chapter3_OBJECTS = \
-"CMakeFiles/Chapter3.dir/exceed.cpp.o"
+"CMakeFiles/Chapter3.dir/hexoct2.cpp.o"
 
 # External object files for target Chapter3
 Chapter3_EXTERNAL_OBJECTS =
 
-Chapter3: CMakeFiles/Chapter3.dir/exceed.cpp.o
+Chapter3: CMakeFiles/Chapter3.dir/hexoct2.cpp.o
 Chapter3: CMakeFiles/Chapter3.dir/build.make
 Chapter3: CMakeFiles/Chapter3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Chapter3"

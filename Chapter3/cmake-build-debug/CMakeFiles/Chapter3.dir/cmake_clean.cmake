@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter3.dir/exceed.cpp.o"
+  "CMakeFiles/Chapter3.dir/hexoct2.cpp.o"
   "Chapter3"
   "Chapter3.pdb"
 )
