@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Applications/codeBase/C-Base/Chapter2/practice1.cpp">
+		<Unit filename="/Applications/codeBase/C-Base/Chapter2/practice2.cpp">
 			<Option target="Chapter2"/>
 		</Unit>
 		<Unit filename="/Applications/codeBase/C-Base/Chapter2/CMakeLists.txt">
