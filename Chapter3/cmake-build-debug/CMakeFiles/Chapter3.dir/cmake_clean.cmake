@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter3.dir/morechar.cpp.o"
+  "CMakeFiles/Chapter3.dir/bondini.cpp.o"
   "Chapter3"
   "Chapter3.pdb"
 )
