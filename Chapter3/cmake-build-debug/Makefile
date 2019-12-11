@@ -123,32 +123,32 @@ Chapter3/fast:
 	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/build
 .PHONY : Chapter3/fast
 
-hexoct2.o: hexoct2.cpp.o
+charType.o: charType.cpp.o
 
-.PHONY : hexoct2.o
+.PHONY : charType.o
 
 # target to build an object file
-hexoct2.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/hexoct2.cpp.o
-.PHONY : hexoct2.cpp.o
+charType.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/charType.cpp.o
+.PHONY : charType.cpp.o
 
-hexoct2.i: hexoct2.cpp.i
+charType.i: charType.cpp.i
 
-.PHONY : hexoct2.i
+.PHONY : charType.i
 
 # target to preprocess a source file
-hexoct2.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/hexoct2.cpp.i
-.PHONY : hexoct2.cpp.i
+charType.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/charType.cpp.i
+.PHONY : charType.cpp.i
 
-hexoct2.s: hexoct2.cpp.s
+charType.s: charType.cpp.s
 
-.PHONY : hexoct2.s
+.PHONY : charType.s
 
 # target to generate assembly for a file
-hexoct2.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/hexoct2.cpp.s
-.PHONY : hexoct2.cpp.s
+charType.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/charType.cpp.s
+.PHONY : charType.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter3"
-	@echo "... hexoct2.o"
-	@echo "... hexoct2.i"
-	@echo "... hexoct2.s"
+	@echo "... charType.o"
+	@echo "... charType.i"
+	@echo "... charType.s"
 .PHONY : help
 
 

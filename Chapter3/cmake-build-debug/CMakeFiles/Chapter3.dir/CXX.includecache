@@ -6,3 +6,7 @@
 
 #IncludeRegexTransform: 
 
+/Applications/codeBase/C-Base/Chapter3/charType.cpp
+iostream
+-
+

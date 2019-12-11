@@ -3,4 +3,4 @@ project(Chapter3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Chapter3 hexoct2.cpp)
+add_executable(Chapter3 charType.cpp)
