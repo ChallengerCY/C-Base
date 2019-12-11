@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Applications/codeBase/C-Base/Chapter3/bondini.cpp">
+		<Unit filename="/Applications/codeBase/C-Base/Chapter3/floatnum.cpp">
 			<Option target="Chapter3"/>
 		</Unit>
 		<Unit filename="/Applications/codeBase/C-Base/Chapter3/CMakeLists.txt">

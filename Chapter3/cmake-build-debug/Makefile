@@ -123,32 +123,32 @@ Chapter3/fast:
 	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/build
 .PHONY : Chapter3/fast
 
-bondini.o: bondini.cpp.o
+floatnum.o: floatnum.cpp.o
 
-.PHONY : bondini.o
+.PHONY : floatnum.o
 
 # target to build an object file
-bondini.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/bondini.cpp.o
-.PHONY : bondini.cpp.o
+floatnum.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/floatnum.cpp.o
+.PHONY : floatnum.cpp.o
 
-bondini.i: bondini.cpp.i
+floatnum.i: floatnum.cpp.i
 
-.PHONY : bondini.i
+.PHONY : floatnum.i
 
 # target to preprocess a source file
-bondini.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/bondini.cpp.i
-.PHONY : bondini.cpp.i
+floatnum.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/floatnum.cpp.i
+.PHONY : floatnum.cpp.i
 
-bondini.s: bondini.cpp.s
+floatnum.s: floatnum.cpp.s
 
-.PHONY : bondini.s
+.PHONY : floatnum.s
 
 # target to generate assembly for a file
-bondini.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/bondini.cpp.s
-.PHONY : bondini.cpp.s
+floatnum.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/floatnum.cpp.s
+.PHONY : floatnum.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter3"
-	@echo "... bondini.o"
-	@echo "... bondini.i"
-	@echo "... bondini.s"
+	@echo "... floatnum.o"
+	@echo "... floatnum.i"
+	@echo "... floatnum.s"
 .PHONY : help
 
 
