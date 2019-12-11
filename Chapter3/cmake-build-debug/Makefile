@@ -123,32 +123,32 @@ Chapter3/fast:
 	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/build
 .PHONY : Chapter3/fast
 
-charType.o: charType.cpp.o
+morechar.o: morechar.cpp.o
 
-.PHONY : charType.o
+.PHONY : morechar.o
 
 # target to build an object file
-charType.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/charType.cpp.o
-.PHONY : charType.cpp.o
+morechar.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/morechar.cpp.o
+.PHONY : morechar.cpp.o
 
-charType.i: charType.cpp.i
+morechar.i: morechar.cpp.i
 
-.PHONY : charType.i
+.PHONY : morechar.i
 
 # target to preprocess a source file
-charType.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/charType.cpp.i
-.PHONY : charType.cpp.i
+morechar.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/morechar.cpp.i
+.PHONY : morechar.cpp.i
 
-charType.s: charType.cpp.s
+morechar.s: morechar.cpp.s
 
-.PHONY : charType.s
+.PHONY : morechar.s
 
 # target to generate assembly for a file
-charType.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/charType.cpp.s
-.PHONY : charType.cpp.s
+morechar.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/morechar.cpp.s
+.PHONY : morechar.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter3"
-	@echo "... charType.o"
-	@echo "... charType.i"
-	@echo "... charType.s"
+	@echo "... morechar.o"
+	@echo "... morechar.i"
+	@echo "... morechar.s"
 .PHONY : help
 
 
