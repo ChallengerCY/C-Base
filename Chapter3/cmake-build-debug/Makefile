@@ -123,32 +123,32 @@ Chapter3/fast:
 	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/build
 .PHONY : Chapter3/fast
 
-floatnum.o: floatnum.cpp.o
+fitadd.o: fitadd.cpp.o
 
-.PHONY : floatnum.o
+.PHONY : fitadd.o
 
 # target to build an object file
-floatnum.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/floatnum.cpp.o
-.PHONY : floatnum.cpp.o
+fitadd.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/fitadd.cpp.o
+.PHONY : fitadd.cpp.o
 
-floatnum.i: floatnum.cpp.i
+fitadd.i: fitadd.cpp.i
 
-.PHONY : floatnum.i
+.PHONY : fitadd.i
 
 # target to preprocess a source file
-floatnum.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/floatnum.cpp.i
-.PHONY : floatnum.cpp.i
+fitadd.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/fitadd.cpp.i
+.PHONY : fitadd.cpp.i
 
-floatnum.s: floatnum.cpp.s
+fitadd.s: fitadd.cpp.s
 
-.PHONY : floatnum.s
+.PHONY : fitadd.s
 
 # target to generate assembly for a file
-floatnum.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/floatnum.cpp.s
-.PHONY : floatnum.cpp.s
+fitadd.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/fitadd.cpp.s
+.PHONY : fitadd.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter3"
-	@echo "... floatnum.o"
-	@echo "... floatnum.i"
-	@echo "... floatnum.s"
+	@echo "... fitadd.o"
+	@echo "... fitadd.i"
+	@echo "... fitadd.s"
 .PHONY : help
 
 
