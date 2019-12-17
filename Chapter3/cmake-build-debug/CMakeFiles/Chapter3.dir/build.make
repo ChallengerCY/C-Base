@@ -57,27 +57,27 @@ include CMakeFiles/Chapter3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter3.dir/flags.make
 
-CMakeFiles/Chapter3.dir/fitadd.cpp.o: CMakeFiles/Chapter3.dir/flags.make
-CMakeFiles/Chapter3.dir/fitadd.cpp.o: ../fitadd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter3.dir/fitadd.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter3.dir/fitadd.cpp.o -c /Applications/codeBase/C-Base/Chapter3/fitadd.cpp
+CMakeFiles/Chapter3.dir/typecast.cpp.o: CMakeFiles/Chapter3.dir/flags.make
+CMakeFiles/Chapter3.dir/typecast.cpp.o: ../typecast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter3.dir/typecast.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter3.dir/typecast.cpp.o -c /Applications/codeBase/C-Base/Chapter3/typecast.cpp
 
-CMakeFiles/Chapter3.dir/fitadd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter3.dir/fitadd.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter3/fitadd.cpp > CMakeFiles/Chapter3.dir/fitadd.cpp.i
+CMakeFiles/Chapter3.dir/typecast.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter3.dir/typecast.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter3/typecast.cpp > CMakeFiles/Chapter3.dir/typecast.cpp.i
 
-CMakeFiles/Chapter3.dir/fitadd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter3.dir/fitadd.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter3/fitadd.cpp -o CMakeFiles/Chapter3.dir/fitadd.cpp.s
+CMakeFiles/Chapter3.dir/typecast.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter3.dir/typecast.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter3/typecast.cpp -o CMakeFiles/Chapter3.dir/typecast.cpp.s
 
 # Object files for target Chapter3
 Chapter3_OBJECTS = \
-"CMakeFiles/Chapter3.dir/fitadd.cpp.o"
+"CMakeFiles/Chapter3.dir/typecast.cpp.o"
 
 # External object files for target Chapter3
 Chapter3_EXTERNAL_OBJECTS =
 
-Chapter3: CMakeFiles/Chapter3.dir/fitadd.cpp.o
+Chapter3: CMakeFiles/Chapter3.dir/typecast.cpp.o
 Chapter3: CMakeFiles/Chapter3.dir/build.make
 Chapter3: CMakeFiles/Chapter3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Chapter3"

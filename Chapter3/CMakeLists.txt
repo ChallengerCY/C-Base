@@ -3,4 +3,4 @@ project(Chapter3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Chapter3  fitadd.cpp)
+add_executable(Chapter3  typecast.cpp)

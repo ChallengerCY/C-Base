@@ -123,32 +123,32 @@ Chapter3/fast:
 	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/build
 .PHONY : Chapter3/fast
 
-fitadd.o: fitadd.cpp.o
+typecast.o: typecast.cpp.o
 
-.PHONY : fitadd.o
+.PHONY : typecast.o
 
 # target to build an object file
-fitadd.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/fitadd.cpp.o
-.PHONY : fitadd.cpp.o
+typecast.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/typecast.cpp.o
+.PHONY : typecast.cpp.o
 
-fitadd.i: fitadd.cpp.i
+typecast.i: typecast.cpp.i
 
-.PHONY : fitadd.i
+.PHONY : typecast.i
 
 # target to preprocess a source file
-fitadd.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/fitadd.cpp.i
-.PHONY : fitadd.cpp.i
+typecast.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/typecast.cpp.i
+.PHONY : typecast.cpp.i
 
-fitadd.s: fitadd.cpp.s
+typecast.s: typecast.cpp.s
 
-.PHONY : fitadd.s
+.PHONY : typecast.s
 
 # target to generate assembly for a file
-fitadd.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/fitadd.cpp.s
-.PHONY : fitadd.cpp.s
+typecast.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter3.dir/build.make CMakeFiles/Chapter3.dir/typecast.cpp.s
+.PHONY : typecast.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter3"
-	@echo "... fitadd.o"
-	@echo "... fitadd.i"
-	@echo "... fitadd.s"
+	@echo "... typecast.o"
+	@echo "... typecast.i"
+	@echo "... typecast.s"
 .PHONY : help
 
 

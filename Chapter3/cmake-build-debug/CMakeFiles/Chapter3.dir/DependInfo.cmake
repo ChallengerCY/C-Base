@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Applications/codeBase/C-Base/Chapter3/fitadd.cpp" "/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles/Chapter3.dir/fitadd.cpp.o"
+  "/Applications/codeBase/C-Base/Chapter3/typecast.cpp" "/Applications/codeBase/C-Base/Chapter3/cmake-build-debug/CMakeFiles/Chapter3.dir/typecast.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

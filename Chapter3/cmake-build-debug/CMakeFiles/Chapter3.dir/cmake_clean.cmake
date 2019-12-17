@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter3.dir/fitadd.cpp.o"
+  "CMakeFiles/Chapter3.dir/typecast.cpp.o"
   "Chapter3"
   "Chapter3.pdb"
 )
