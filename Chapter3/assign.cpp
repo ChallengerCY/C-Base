@@ -13,7 +13,7 @@ int main()
 
     //照常输出3
     cout<<"tree = "<<tree<<endl;
-    //省略小数点的部分，不会四舍五入
+    //省略小数点的部分，不会四舍五入。
     cout<<"guess = "<<guess<<endl;
     //debt存不下这么大的值，所以转换结果不确定
     cout<<"debt = "<<debt<<endl;
