@@ -3,4 +3,4 @@ project(Chapter4)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Chapter4 string.cpp)
+add_executable(Chapter4 instr1.cpp)
