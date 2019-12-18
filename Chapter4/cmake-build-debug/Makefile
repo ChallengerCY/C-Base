@@ -123,32 +123,32 @@ Chapter4/fast:
 	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/build
 .PHONY : Chapter4/fast
 
-arrayone.o: arrayone.cpp.o
+string.o: string.cpp.o
 
-.PHONY : arrayone.o
+.PHONY : string.o
 
 # target to build an object file
-arrayone.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/arrayone.cpp.o
-.PHONY : arrayone.cpp.o
+string.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/string.cpp.o
+.PHONY : string.cpp.o
 
-arrayone.i: arrayone.cpp.i
+string.i: string.cpp.i
 
-.PHONY : arrayone.i
+.PHONY : string.i
 
 # target to preprocess a source file
-arrayone.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/arrayone.cpp.i
-.PHONY : arrayone.cpp.i
+string.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/string.cpp.i
+.PHONY : string.cpp.i
 
-arrayone.s: arrayone.cpp.s
+string.s: string.cpp.s
 
-.PHONY : arrayone.s
+.PHONY : string.s
 
 # target to generate assembly for a file
-arrayone.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/arrayone.cpp.s
-.PHONY : arrayone.cpp.s
+string.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/string.cpp.s
+.PHONY : string.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter4"
-	@echo "... arrayone.o"
-	@echo "... arrayone.i"
-	@echo "... arrayone.s"
+	@echo "... string.o"
+	@echo "... string.i"
+	@echo "... string.s"
 .PHONY : help
 
 

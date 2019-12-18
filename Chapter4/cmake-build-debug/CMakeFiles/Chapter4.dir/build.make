@@ -57,27 +57,27 @@ include CMakeFiles/Chapter4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter4.dir/flags.make
 
-CMakeFiles/Chapter4.dir/arrayone.cpp.o: CMakeFiles/Chapter4.dir/flags.make
-CMakeFiles/Chapter4.dir/arrayone.cpp.o: ../arrayone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter4.dir/arrayone.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter4.dir/arrayone.cpp.o -c /Applications/codeBase/C-Base/Chapter4/arrayone.cpp
+CMakeFiles/Chapter4.dir/string.cpp.o: CMakeFiles/Chapter4.dir/flags.make
+CMakeFiles/Chapter4.dir/string.cpp.o: ../string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter4.dir/string.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter4.dir/string.cpp.o -c /Applications/codeBase/C-Base/Chapter4/string.cpp
 
-CMakeFiles/Chapter4.dir/arrayone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter4.dir/arrayone.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter4/arrayone.cpp > CMakeFiles/Chapter4.dir/arrayone.cpp.i
+CMakeFiles/Chapter4.dir/string.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter4.dir/string.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter4/string.cpp > CMakeFiles/Chapter4.dir/string.cpp.i
 
-CMakeFiles/Chapter4.dir/arrayone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter4.dir/arrayone.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter4/arrayone.cpp -o CMakeFiles/Chapter4.dir/arrayone.cpp.s
+CMakeFiles/Chapter4.dir/string.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter4.dir/string.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter4/string.cpp -o CMakeFiles/Chapter4.dir/string.cpp.s
 
 # Object files for target Chapter4
 Chapter4_OBJECTS = \
-"CMakeFiles/Chapter4.dir/arrayone.cpp.o"
+"CMakeFiles/Chapter4.dir/string.cpp.o"
 
 # External object files for target Chapter4
 Chapter4_EXTERNAL_OBJECTS =
 
-Chapter4: CMakeFiles/Chapter4.dir/arrayone.cpp.o
+Chapter4: CMakeFiles/Chapter4.dir/string.cpp.o
 Chapter4: CMakeFiles/Chapter4.dir/build.make
 Chapter4: CMakeFiles/Chapter4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Chapter4"

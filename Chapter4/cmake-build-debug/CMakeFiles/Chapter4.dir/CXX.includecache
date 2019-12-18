@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Applications/codeBase/C-Base/Chapter4/arrayone.cpp
+/Applications/codeBase/C-Base/Chapter4/string.cpp
 iostream
+-
+cstring
 -
 
