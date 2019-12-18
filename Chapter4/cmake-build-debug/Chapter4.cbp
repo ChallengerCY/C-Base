@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Applications/codeBase/C-Base/Chapter4/instr1.cpp">
+		<Unit filename="/Applications/codeBase/C-Base/Chapter4/instr2.cpp">
+			<Option target="Chapter4"/>
+		</Unit>
+		<Unit filename="/Applications/codeBase/C-Base/Chapter4/instr3.cpp">
 			<Option target="Chapter4"/>
 		</Unit>
 		<Unit filename="/Applications/codeBase/C-Base/Chapter4/CMakeLists.txt">

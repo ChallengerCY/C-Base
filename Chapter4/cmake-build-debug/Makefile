@@ -123,32 +123,59 @@ Chapter4/fast:
 	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/build
 .PHONY : Chapter4/fast
 
-instr1.o: instr1.cpp.o
+instr2.o: instr2.cpp.o
 
-.PHONY : instr1.o
+.PHONY : instr2.o
 
 # target to build an object file
-instr1.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr1.cpp.o
-.PHONY : instr1.cpp.o
+instr2.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr2.cpp.o
+.PHONY : instr2.cpp.o
 
-instr1.i: instr1.cpp.i
+instr2.i: instr2.cpp.i
 
-.PHONY : instr1.i
+.PHONY : instr2.i
 
 # target to preprocess a source file
-instr1.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr1.cpp.i
-.PHONY : instr1.cpp.i
+instr2.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr2.cpp.i
+.PHONY : instr2.cpp.i
 
-instr1.s: instr1.cpp.s
+instr2.s: instr2.cpp.s
 
-.PHONY : instr1.s
+.PHONY : instr2.s
 
 # target to generate assembly for a file
-instr1.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr1.cpp.s
-.PHONY : instr1.cpp.s
+instr2.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr2.cpp.s
+.PHONY : instr2.cpp.s
+
+instr3.o: instr3.cpp.o
+
+.PHONY : instr3.o
+
+# target to build an object file
+instr3.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr3.cpp.o
+.PHONY : instr3.cpp.o
+
+instr3.i: instr3.cpp.i
+
+.PHONY : instr3.i
+
+# target to preprocess a source file
+instr3.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr3.cpp.i
+.PHONY : instr3.cpp.i
+
+instr3.s: instr3.cpp.s
+
+.PHONY : instr3.s
+
+# target to generate assembly for a file
+instr3.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/instr3.cpp.s
+.PHONY : instr3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter4"
-	@echo "... instr1.o"
-	@echo "... instr1.i"
-	@echo "... instr1.s"
+	@echo "... instr2.o"
+	@echo "... instr2.i"
+	@echo "... instr2.s"
+	@echo "... instr3.o"
+	@echo "... instr3.i"
+	@echo "... instr3.s"
 .PHONY : help
 
 
