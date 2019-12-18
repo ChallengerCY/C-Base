@@ -1,0 +1,3 @@
+/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles/Chapter4.dir
