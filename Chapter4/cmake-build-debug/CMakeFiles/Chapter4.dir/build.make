@@ -57,45 +57,30 @@ include CMakeFiles/Chapter4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter4.dir/flags.make
 
-CMakeFiles/Chapter4.dir/instr2.cpp.o: CMakeFiles/Chapter4.dir/flags.make
-CMakeFiles/Chapter4.dir/instr2.cpp.o: ../instr2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter4.dir/instr2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter4.dir/instr2.cpp.o -c /Applications/codeBase/C-Base/Chapter4/instr2.cpp
+CMakeFiles/Chapter4.dir/numstr.cpp.o: CMakeFiles/Chapter4.dir/flags.make
+CMakeFiles/Chapter4.dir/numstr.cpp.o: ../numstr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter4.dir/numstr.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter4.dir/numstr.cpp.o -c /Applications/codeBase/C-Base/Chapter4/numstr.cpp
 
-CMakeFiles/Chapter4.dir/instr2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter4.dir/instr2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter4/instr2.cpp > CMakeFiles/Chapter4.dir/instr2.cpp.i
+CMakeFiles/Chapter4.dir/numstr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter4.dir/numstr.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter4/numstr.cpp > CMakeFiles/Chapter4.dir/numstr.cpp.i
 
-CMakeFiles/Chapter4.dir/instr2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter4.dir/instr2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter4/instr2.cpp -o CMakeFiles/Chapter4.dir/instr2.cpp.s
-
-CMakeFiles/Chapter4.dir/instr3.cpp.o: CMakeFiles/Chapter4.dir/flags.make
-CMakeFiles/Chapter4.dir/instr3.cpp.o: ../instr3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chapter4.dir/instr3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter4.dir/instr3.cpp.o -c /Applications/codeBase/C-Base/Chapter4/instr3.cpp
-
-CMakeFiles/Chapter4.dir/instr3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter4.dir/instr3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/Chapter4/instr3.cpp > CMakeFiles/Chapter4.dir/instr3.cpp.i
-
-CMakeFiles/Chapter4.dir/instr3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter4.dir/instr3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter4/instr3.cpp -o CMakeFiles/Chapter4.dir/instr3.cpp.s
+CMakeFiles/Chapter4.dir/numstr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter4.dir/numstr.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/Chapter4/numstr.cpp -o CMakeFiles/Chapter4.dir/numstr.cpp.s
 
 # Object files for target Chapter4
 Chapter4_OBJECTS = \
-"CMakeFiles/Chapter4.dir/instr2.cpp.o" \
-"CMakeFiles/Chapter4.dir/instr3.cpp.o"
+"CMakeFiles/Chapter4.dir/numstr.cpp.o"
 
 # External object files for target Chapter4
 Chapter4_EXTERNAL_OBJECTS =
 
-Chapter4: CMakeFiles/Chapter4.dir/instr2.cpp.o
-Chapter4: CMakeFiles/Chapter4.dir/instr3.cpp.o
+Chapter4: CMakeFiles/Chapter4.dir/numstr.cpp.o
 Chapter4: CMakeFiles/Chapter4.dir/build.make
 Chapter4: CMakeFiles/Chapter4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Chapter4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Chapter4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chapter4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
