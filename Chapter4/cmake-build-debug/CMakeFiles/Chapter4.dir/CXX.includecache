@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Applications/codeBase/C-Base/Chapter4/numstr.cpp
+/Applications/codeBase/C-Base/Chapter4/strtype4.cpp
 iostream
+-
+cstring
+-
+string
 -
 

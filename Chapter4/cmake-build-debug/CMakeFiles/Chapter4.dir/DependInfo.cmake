@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Applications/codeBase/C-Base/Chapter4/numstr.cpp" "/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles/Chapter4.dir/numstr.cpp.o"
+  "/Applications/codeBase/C-Base/Chapter4/strtype4.cpp" "/Applications/codeBase/C-Base/Chapter4/cmake-build-debug/CMakeFiles/Chapter4.dir/strtype4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

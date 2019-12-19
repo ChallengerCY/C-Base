@@ -123,32 +123,32 @@ Chapter4/fast:
 	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/build
 .PHONY : Chapter4/fast
 
-numstr.o: numstr.cpp.o
+strtype4.o: strtype4.cpp.o
 
-.PHONY : numstr.o
+.PHONY : strtype4.o
 
 # target to build an object file
-numstr.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/numstr.cpp.o
-.PHONY : numstr.cpp.o
+strtype4.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/strtype4.cpp.o
+.PHONY : strtype4.cpp.o
 
-numstr.i: numstr.cpp.i
+strtype4.i: strtype4.cpp.i
 
-.PHONY : numstr.i
+.PHONY : strtype4.i
 
 # target to preprocess a source file
-numstr.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/numstr.cpp.i
-.PHONY : numstr.cpp.i
+strtype4.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/strtype4.cpp.i
+.PHONY : strtype4.cpp.i
 
-numstr.s: numstr.cpp.s
+strtype4.s: strtype4.cpp.s
 
-.PHONY : numstr.s
+.PHONY : strtype4.s
 
 # target to generate assembly for a file
-numstr.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/numstr.cpp.s
-.PHONY : numstr.cpp.s
+strtype4.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/strtype4.cpp.s
+.PHONY : strtype4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter4"
-	@echo "... numstr.o"
-	@echo "... numstr.i"
-	@echo "... numstr.s"
+	@echo "... strtype4.o"
+	@echo "... strtype4.i"
+	@echo "... strtype4.s"
 .PHONY : help
 
 
