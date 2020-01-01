@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter4.dir/arrstruc.cpp.o"
+  "CMakeFiles/Chapter4.dir/choices.cpp.o"
   "Chapter4"
   "Chapter4.pdb"
 )

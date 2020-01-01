@@ -123,32 +123,32 @@ Chapter4/fast:
 	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/build
 .PHONY : Chapter4/fast
 
-arrstruc.o: arrstruc.cpp.o
+choices.o: choices.cpp.o
 
-.PHONY : arrstruc.o
+.PHONY : choices.o
 
 # target to build an object file
-arrstruc.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/arrstruc.cpp.o
-.PHONY : arrstruc.cpp.o
+choices.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/choices.cpp.o
+.PHONY : choices.cpp.o
 
-arrstruc.i: arrstruc.cpp.i
+choices.i: choices.cpp.i
 
-.PHONY : arrstruc.i
+.PHONY : choices.i
 
 # target to preprocess a source file
-arrstruc.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/arrstruc.cpp.i
-.PHONY : arrstruc.cpp.i
+choices.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/choices.cpp.i
+.PHONY : choices.cpp.i
 
-arrstruc.s: arrstruc.cpp.s
+choices.s: choices.cpp.s
 
-.PHONY : arrstruc.s
+.PHONY : choices.s
 
 # target to generate assembly for a file
-arrstruc.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/arrstruc.cpp.s
-.PHONY : arrstruc.cpp.s
+choices.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter4.dir/build.make CMakeFiles/Chapter4.dir/choices.cpp.s
+.PHONY : choices.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter4"
-	@echo "... arrstruc.o"
-	@echo "... arrstruc.i"
-	@echo "... arrstruc.s"
+	@echo "... choices.o"
+	@echo "... choices.i"
+	@echo "... choices.s"
 .PHONY : help
 
 
