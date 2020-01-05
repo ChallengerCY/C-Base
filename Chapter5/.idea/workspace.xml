@@ -12,29 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d648fe-8576-4f0b-94da-fde384210af4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigstep.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compstr1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compstr2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dowhile.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/equal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forloop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formore.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forstr1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forstr2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nested.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/num_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus_one.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textin1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textin2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textin3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textin4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/waiting.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +87,16 @@
       <updated>1577856513435</updated>
       <workItem from="1577856514632" duration="189000" />
       <workItem from="1577856753622" duration="14759000" />
-      <workItem from="1578136675592" duration="3409000" />
+      <workItem from="1578136675592" duration="3682000" />
     </task>
+    <task id="LOCAL-00001" summary="整理c++中的循环和循环关系">
+      <created>1578200618499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578200618499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,39 +117,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="整理c++中的循环和循环关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理c++中的循环和循环关系" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577859323734">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577859323734" />
-    <state x="434" y="113" key="CommitChangelistDialog2" timestamp="1578200525885">
+    <state x="434" y="113" key="CommitChangelistDialog2" timestamp="1578200618301">
       <screen x="0" y="23" width="1680" height="974" />
     </state>
-    <state x="434" y="113" key="CommitChangelistDialog2/0.23.1680.974@0.23.1680.974" timestamp="1578200525885" />
-    <state width="1358" height="294" key="GridCell.Tab.0.bottom" timestamp="1578200525941">
-      <screen x="0" y="23" width="1680" height="974" />
+    <state x="434" y="113" key="CommitChangelistDialog2/0.23.1680.974@0.23.1680.974" timestamp="1578200618301" />
+    <state width="1358" height="294" key="GridCell.Tab.0.bottom" timestamp="1578200709004">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577873605387" />
-    <state width="1358" height="294" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1578199952221" />
+    <state width="1358" height="294" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1578200709004" />
     <state width="1358" height="294" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1578200525941" />
-    <state width="1358" height="294" key="GridCell.Tab.0.center" timestamp="1578200525940">
-      <screen x="0" y="23" width="1680" height="974" />
+    <state width="1358" height="294" key="GridCell.Tab.0.center" timestamp="1578200709003">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577873605386" />
-    <state width="1358" height="294" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1578199952220" />
+    <state width="1358" height="294" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1578200709003" />
     <state width="1358" height="294" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1578200525940" />
-    <state width="1358" height="294" key="GridCell.Tab.0.left" timestamp="1578200525940">
-      <screen x="0" y="23" width="1680" height="974" />
+    <state width="1358" height="294" key="GridCell.Tab.0.left" timestamp="1578200708996">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577873605385" />
-    <state width="1358" height="294" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1578199952219" />
+    <state width="1358" height="294" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1578200708996" />
     <state width="1358" height="294" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1578200525940" />
-    <state width="1358" height="294" key="GridCell.Tab.0.right" timestamp="1578200525940">
-      <screen x="0" y="23" width="1680" height="974" />
+    <state width="1358" height="294" key="GridCell.Tab.0.right" timestamp="1578200709004">
+      <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577873605386" />
-    <state width="1358" height="294" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1578199952220" />
+    <state width="1358" height="294" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1578200709004" />
     <state width="1358" height="294" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1578200525940" />
     <state x="519" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1578136677759">
       <screen x="0" y="23" width="1680" height="967" />
