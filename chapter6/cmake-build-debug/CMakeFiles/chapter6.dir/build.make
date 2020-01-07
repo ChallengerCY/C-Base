@@ -57,27 +57,27 @@ include CMakeFiles/chapter6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/chapter6.dir/flags.make
 
-CMakeFiles/chapter6.dir/main.cpp.o: CMakeFiles/chapter6.dir/flags.make
-CMakeFiles/chapter6.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chapter6.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chapter6.dir/main.cpp.o -c /Applications/codeBase/C-Base/chapter6/main.cpp
+CMakeFiles/chapter6.dir/cctypes.cpp.o: CMakeFiles/chapter6.dir/flags.make
+CMakeFiles/chapter6.dir/cctypes.cpp.o: ../cctypes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Applications/codeBase/C-Base/chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chapter6.dir/cctypes.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chapter6.dir/cctypes.cpp.o -c /Applications/codeBase/C-Base/chapter6/cctypes.cpp
 
-CMakeFiles/chapter6.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chapter6.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/chapter6/main.cpp > CMakeFiles/chapter6.dir/main.cpp.i
+CMakeFiles/chapter6.dir/cctypes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chapter6.dir/cctypes.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Applications/codeBase/C-Base/chapter6/cctypes.cpp > CMakeFiles/chapter6.dir/cctypes.cpp.i
 
-CMakeFiles/chapter6.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter6.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/chapter6/main.cpp -o CMakeFiles/chapter6.dir/main.cpp.s
+CMakeFiles/chapter6.dir/cctypes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter6.dir/cctypes.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Applications/codeBase/C-Base/chapter6/cctypes.cpp -o CMakeFiles/chapter6.dir/cctypes.cpp.s
 
 # Object files for target chapter6
 chapter6_OBJECTS = \
-"CMakeFiles/chapter6.dir/main.cpp.o"
+"CMakeFiles/chapter6.dir/cctypes.cpp.o"
 
 # External object files for target chapter6
 chapter6_EXTERNAL_OBJECTS =
 
-chapter6: CMakeFiles/chapter6.dir/main.cpp.o
+chapter6: CMakeFiles/chapter6.dir/cctypes.cpp.o
 chapter6: CMakeFiles/chapter6.dir/build.make
 chapter6: CMakeFiles/chapter6.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Applications/codeBase/C-Base/chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable chapter6"

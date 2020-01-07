@@ -123,32 +123,32 @@ chapter6/fast:
 	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/build
 .PHONY : chapter6/fast
 
-main.o: main.cpp.o
+cctypes.o: cctypes.cpp.o
 
-.PHONY : main.o
+.PHONY : cctypes.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/main.cpp.o
-.PHONY : main.cpp.o
+cctypes.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/cctypes.cpp.o
+.PHONY : cctypes.cpp.o
 
-main.i: main.cpp.i
+cctypes.i: cctypes.cpp.i
 
-.PHONY : main.i
+.PHONY : cctypes.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/main.cpp.i
-.PHONY : main.cpp.i
+cctypes.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/cctypes.cpp.i
+.PHONY : cctypes.cpp.i
 
-main.s: main.cpp.s
+cctypes.s: cctypes.cpp.s
 
-.PHONY : main.s
+.PHONY : cctypes.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/main.cpp.s
-.PHONY : main.cpp.s
+cctypes.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter6.dir/build.make CMakeFiles/chapter6.dir/cctypes.cpp.s
+.PHONY : cctypes.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... chapter6"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... cctypes.o"
+	@echo "... cctypes.i"
+	@echo "... cctypes.s"
 .PHONY : help
 
 

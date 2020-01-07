@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="chapter6" targetName="chapter6" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d80fb007-df82-47a4-a541-5ba96530e43d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chapter4/.idea/Chapter4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/and.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cctypes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifelse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifelseif.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/more_and.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/not.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/or.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/chapter6.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/chapter6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/chapter6.cbp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ChallengerCY &lt;790597004@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1VxiOfUopvnIYLC3LpNy6tuhOSp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -22,10 +76,99 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80fb007-df82-47a4-a541-5ba96530e43d" name="Default Changelist" comment="" />
+      <created>1578201115497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578201115497</updated>
+      <workItem from="1578201116755" duration="6669000" />
+    </task>
+    <task id="LOCAL-00001" summary="整理c++分支语句和逻辑运算符">
+      <created>1578201182785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578201182785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="整理c++分支语句和逻辑运算符" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理c++分支语句和逻辑运算符" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578201125807">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.972@0.23.1680.972" timestamp="1578201125807" />
+    <state x="434" y="113" key="CommitChangelistDialog2" timestamp="1578201182610">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="434" y="113" key="CommitChangelistDialog2/0.23.1680.972@0.23.1680.972" timestamp="1578201182610" />
+    <state width="1638" height="250" key="GridCell.Tab.0.bottom" timestamp="1578411811892">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="250" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578411811892" />
+    <state width="1358" height="250" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1578410851940" />
+    <state width="1638" height="250" key="GridCell.Tab.0.center" timestamp="1578411811891">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="250" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578411811891" />
+    <state width="1358" height="250" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1578410851939" />
+    <state width="1638" height="250" key="GridCell.Tab.0.left" timestamp="1578411811890">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="250" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578411811890" />
+    <state width="1358" height="250" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1578410851939" />
+    <state width="1638" height="250" key="GridCell.Tab.0.right" timestamp="1578411811891">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="250" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578411811891" />
+    <state width="1358" height="250" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1578410851940" />
+    <state width="1358" height="309" key="GridCell.Tab.1.bottom" timestamp="1578272230347">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1358" height="309" key="GridCell.Tab.1.bottom/0.23.1680.972@0.23.1680.972" timestamp="1578272230347" />
+    <state width="1358" height="309" key="GridCell.Tab.1.center" timestamp="1578272230346">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1358" height="309" key="GridCell.Tab.1.center/0.23.1680.972@0.23.1680.972" timestamp="1578272230346" />
+    <state width="1358" height="309" key="GridCell.Tab.1.left" timestamp="1578272230346">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1358" height="309" key="GridCell.Tab.1.left/0.23.1680.972@0.23.1680.972" timestamp="1578272230346" />
+    <state width="1358" height="309" key="GridCell.Tab.1.right" timestamp="1578272230346">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1358" height="309" key="GridCell.Tab.1.right/0.23.1680.972@0.23.1680.972" timestamp="1578272230346" />
+    <state x="440" y="251" key="Vcs.Push.Dialog.v2" timestamp="1578201192064">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="440" y="251" key="Vcs.Push.Dialog.v2/0.23.1680.972@0.23.1680.972" timestamp="1578201192064" />
+    <state x="505" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1578272271925">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="505" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1578272271925" />
   </component>
 </project>
